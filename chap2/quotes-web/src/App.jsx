@@ -15,7 +15,7 @@ function App() {
       ))
 
   function getRandomQuote() {
-    setCurrentIndex(Math.floor(Math.random() * quotesDatac.length))
+    setCurrentIndex(Math.floor(Math.random() * quotesData.length))
   }
   return (
     <>
